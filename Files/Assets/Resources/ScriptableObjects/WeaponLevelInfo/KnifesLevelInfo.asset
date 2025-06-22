@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a62be0487003b34b8876dc3de73a037, type: 3}
+  m_Name: KnifesLevelInfo
+  m_EditorClassIdentifier: 
+  levels:
+  - level: 1
+    damage: 3
+    attackBehaviors:
+    - {fileID: 11400000, guid: 0026b9050f36d0248b911e6d9febcf65, type: 2}
+  - level: 2
+    damage: 4
+    attackBehaviors: []
+  - level: 3
+    damage: 5
+    attackBehaviors:
+    - {fileID: 11400000, guid: 8955ecc398738504b8b0e5e0d8ec6c36, type: 2}
+    - {fileID: 11400000, guid: 9867106f15d94fb48ba83cbfd773852b, type: 2}
+  - level: 4
+    damage: 6
+    attackBehaviors: []
+  - level: 5
+    damage: 7
+    attackBehaviors: []

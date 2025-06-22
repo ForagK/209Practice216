@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a62be0487003b34b8876dc3de73a037, type: 3}
+  m_Name: BoomerangLevelInfo
+  m_EditorClassIdentifier: 
+  levels:
+  - level: 1
+    damage: 2
+    attackBehaviors:
+    - {fileID: 11400000, guid: 0026b9050f36d0248b911e6d9febcf65, type: 2}
+  - level: 2
+    damage: 3
+    attackBehaviors: []
+  - level: 3
+    damage: 4
+    attackBehaviors:
+    - {fileID: 11400000, guid: 598663d8081a909499ebe1343592d548, type: 2}
+  - level: 4
+    damage: 5
+    attackBehaviors: []
+  - level: 5
+    damage: 6
+    attackBehaviors:
+    - {fileID: 11400000, guid: 19aee2e4d13a7774281caf8eae0879e1, type: 2}
+    - {fileID: 11400000, guid: 403396908bb63ad45881cf054df271a8, type: 2}

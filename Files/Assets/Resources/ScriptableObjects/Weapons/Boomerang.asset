@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebb9f975cb05b1488f6edbd55f1a368, type: 3}
+  m_Name: Boomerang
+  m_EditorClassIdentifier: 
+  weaponName: Boomerang
+  description: A boomerang that pierces enemies.
+  maxLevel: 5
+  currentLevel: 1
+  attackSpeed: 1.5
+  projectileSpeed: 16
+  projectileLifetime: 2
+  penetrationCount: 999
+  cost: 200
+  projectilePrefab: {fileID: 4540202968522069441, guid: 34b7f026cc5c938479699b1b1f16e0b2, type: 3}
+  levelInfo: {fileID: 11400000, guid: f79b93135f611984e8c4940f8f1ed1e1, type: 2}

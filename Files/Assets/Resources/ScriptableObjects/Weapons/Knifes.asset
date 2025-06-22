@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ebb9f975cb05b1488f6edbd55f1a368, type: 3}
+  m_Name: Knifes
+  m_EditorClassIdentifier: 
+  weaponName: Knifes
+  description: 'Throws a knife in a straight line. '
+  maxLevel: 5
+  currentLevel: 1
+  attackSpeed: 1
+  projectileSpeed: 8
+  projectileLifetime: 2
+  penetrationCount: 0
+  cost: 0
+  projectilePrefab: {fileID: 9087748692464550925, guid: 6cdd1845f267c5b40aba645cffaf8a0f, type: 3}
+  levelInfo: {fileID: 11400000, guid: 72cc198dde123e9449f42ad26e67b452, type: 2}
